@@ -17,5 +17,10 @@
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/your-username/transaction-system.git
+git clone https://github.com/Shashankm91/transaction-system.git
 cd transaction-system
+
+#Run these cmds
+php artisan key:generate #to generate app key
+php artisan migrate  #to create migrations files
+php artisan db:seed --class=TransactionSeeder   #to add seeder data in table
