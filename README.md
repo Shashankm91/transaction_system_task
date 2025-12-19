@@ -20,6 +20,13 @@
 git clone https://github.com/Shashankm91/transaction-system.git
 cd transaction-system
 
+## Database Data Note
+
+This repository includes a SQL dump containing sample transaction data 
+for quick setup and evaluation.
+
+Alternatively, the database can be populated using Laravel seeders:
+
 #Run these cmds
 php artisan key:generate #to generate app key
 php artisan migrate  #to create migrations files
