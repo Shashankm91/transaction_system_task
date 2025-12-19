@@ -18,7 +18,7 @@
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/Shashankm91/transaction-system.git
-cd transaction-system
+cd transaction-system_task
 
 ## Database Data Note
 
